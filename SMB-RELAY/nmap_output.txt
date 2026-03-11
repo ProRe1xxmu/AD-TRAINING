@@ -1,0 +1,106 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-03-06 20:15 MSK
+Nmap scan report for 192.168.31.1
+Host is up (0.0028s latency).
+
+PORT    STATE    SERVICE
+445/tcp filtered microsoft-ds
+MAC Address: D4:DA:21:77:14:9D (Beijing Xiaomi Mobile Software)
+
+Nmap scan report for 192.168.31.14
+Host is up (0.012s latency).
+
+PORT    STATE    SERVICE
+445/tcp filtered microsoft-ds
+MAC Address: 00:12:42:6A:25:D8 (Millennial Net)
+
+Nmap scan report for 192.168.31.15
+Host is up (0.015s latency).
+
+PORT    STATE    SERVICE
+445/tcp filtered microsoft-ds
+MAC Address: 00:12:33:73:1B:EB (JRC Tokki)
+
+Nmap scan report for 192.168.31.17
+Host is up (0.087s latency).
+
+PORT    STATE    SERVICE
+445/tcp filtered microsoft-ds
+MAC Address: 5C:F8:A1:02:25:72 (Murata Manufacturing)
+
+Nmap scan report for 192.168.31.63
+Host is up (0.052s latency).
+
+PORT    STATE    SERVICE
+445/tcp filtered microsoft-ds
+MAC Address: 8C:79:F5:E9:0F:BC (Samsung Electronics)
+
+Nmap scan report for 192.168.31.100
+Host is up (0.013s latency).
+
+PORT    STATE    SERVICE
+445/tcp filtered microsoft-ds
+MAC Address: 00:10:FA:63:68:4A (Apple)
+
+Nmap scan report for 192.168.31.105
+Host is up (0.11s latency).
+
+PORT    STATE    SERVICE
+445/tcp filtered microsoft-ds
+MAC Address: C2:5A:44:77:27:E2 (Unknown)
+
+Nmap scan report for 192.168.31.115
+Host is up (0.18s latency).
+
+PORT    STATE    SERVICE
+445/tcp filtered microsoft-ds
+MAC Address: 2C:56:DC:86:7E:20 (ASUSTek Computer)
+
+Nmap scan report for 192.168.31.137
+Host is up (0.18s latency).
+
+PORT    STATE    SERVICE
+445/tcp filtered microsoft-ds
+MAC Address: 2E:91:F2:07:F8:3B (Unknown)
+
+Nmap scan report for 192.168.31.150
+Host is up (0.015s latency).
+
+PORT    STATE    SERVICE
+445/tcp filtered microsoft-ds
+MAC Address: 00:15:5D:1F:64:00 (Microsoft)
+
+Nmap scan report for 192.168.31.151
+Host is up (0.014s latency).
+
+PORT    STATE    SERVICE
+445/tcp filtered microsoft-ds
+MAC Address: 00:15:5D:1F:64:01 (Microsoft)
+
+Nmap scan report for 192.168.31.152
+Host is up (0.015s latency).
+
+PORT    STATE    SERVICE
+445/tcp filtered microsoft-ds
+MAC Address: 00:15:5D:1F:64:03 (Microsoft)
+
+Nmap scan report for 192.168.31.193
+Host is up (0.14s latency).
+
+PORT    STATE    SERVICE
+445/tcp filtered microsoft-ds
+MAC Address: 2C:56:DC:86:7E:20 (ASUSTek Computer)
+
+Nmap scan report for 192.168.31.254
+Host is up (0.014s latency).
+
+PORT    STATE    SERVICE
+445/tcp filtered microsoft-ds
+MAC Address: F0:00:00:E3:E7:15 (Unknown)
+
+Nmap scan report for 192.168.31.244
+Host is up (0.00036s latency).
+
+PORT    STATE  SERVICE
+445/tcp closed microsoft-ds
+
+Nmap done: 256 IP addresses (15 hosts up) scanned in 18.71 seconds
